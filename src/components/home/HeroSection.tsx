@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FC } from "react";
-import image from "@/images/person_on_phone.png";
+import image from "@/images/ow-hero-image.png";
 import { Button } from "../ui/Button";
 
 interface HeroSection { }
