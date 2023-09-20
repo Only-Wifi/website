@@ -28,9 +28,7 @@ export default function RootLayout({
       {/* <Providers> */}
       <body className="min-h-screen  bg-slate-50 antialiased ">
         <Navbar />
-        <div className="container  h-full pt-12 overflow-hidden">
-          {children}
-        </div>
+        <div className="  h-full pt-12 overflow-hidden">{children}</div>
         <Toaster />
       </body>
       {/* </Providers> */}

@@ -1,165 +1,165 @@
 import Image from "next/image";
 import { FC } from "react";
-import ellipse1 from "@/images/ellipse-1.svg";
-import heroImage from "@/images/stock-image-hero.png";
-import cardImage from "@/images/card-benefit.png";
-import lineImage from "@/images/line-1.svg";
-import dollarImage from "@/images/dollar-sign.svg";
-import phoneHandImage from "@/images/phone-hand.svg";
-import signUpImage from "@/images/sign-up.svg";
+import line from "@/images/line-1.svg";
+import language from "@/images/language.svg";
+import monetization from "@/images/monetization-on.svg";
+import howToReg from "@/images/how-to-reg.svg";
+
 import { Button } from "../ui/Button";
 
 interface HeroSection {}
 
 const HeroSection: FC<HeroSection> = ({}) => {
   return (
-    <div className="bg-white flex flex-row justify-center w-full ">
-      <div className="bg-white  w-full h-screen ">
-        <div className="relative left-px w-full h-[1024px] ">
-          <div className="absolute top-0 left-0 w-full h-[1024px]">
-            <Image
-              width={100}
-              height={100}
-              className="absolute w-[693px] h-[1005px] top-0 left-[746px]"
-              alt="Ellipse"
-              src={ellipse1}
-            />
-            <div className="absolute w-[1441px] h-[197px] top-[827px] left-0 bg-[#0c0c0e] blur-sm" />
-            <Image
-              width={100}
-              height={100}
-              className="absolute w-[720px] h-[648px] top-[179px] left-[719px] object-cover"
-              alt="Stock image hero"
-              src={heroImage}
-            />
-            <Image
-              width={100}
-              height={100}
-              className="top-[839px] left-[80px] absolute w-[320px] h-[170px]"
-              alt="Card"
-              src={cardImage}
-            />
-            <Image
-              width={100}
-              height={100}
-              className="top-[840px] left-[560px] absolute w-[320px] h-[170px]"
-              alt="Card"
-              src={cardImage}
-            />
-            <Image
-              width={100}
-              height={100}
-              className="top-[840px] left-[1042px] absolute w-[320px] h-[170px]"
-              alt="Card"
-              src={cardImage}
-            />
-            <Image
-              width={100}
-              height={100}
-              className="w-[253px] top-[911px] left-[586px] absolute h-[12px]"
-              alt="Line"
-              src="line-2.svg"
-            />
-            <Image
-              width={100}
-              height={100}
-              className="w-[252px] top-[911px] left-[1076px] absolute h-[12px]"
-              alt="Line"
-              src={lineImage}
-            />
-            <Image
-              width={100}
-              height={100}
-              className="absolute w-[47px] h-[51px] top-[954px] left-[825px]"
-              alt="Group"
-              src={phoneHandImage}
-            />
-            <div className="absolute w-[243px] h-[81px] top-[881px] left-[116px]">
-              <div className="relative w-[245px] h-[81px]">
-                <Image
-                  width={100}
-                  height={100}
-                  className="w-[252px] top-[28px] left-[-6px] absolute h-[12px]"
-                  alt="Line"
-                  src={lineImage}
-                />
-                <div className="absolute w-[243px] top-0 left-0 [font-family:'Roboto-ExtraBold',_Helvetica] font-extrabold text-black text-[20px] tracking-[0] leading-[normal]">
-                  Affordable Data Packages
-                </div>
-                <div className="absolute w-[215px] h-[34px] top-[47px] left-[2px]">
-                  <p className="absolute w-[213px] top-0 left-0 [font-family:'Open_Sans-Regular',_Helvetica] font-normal text-black text-[15px] tracking-[0] leading-[normal]">
-                    Get access to cheap data packages that fit your budget.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="absolute w-[216px] h-[78px] top-[882px] left-[593px]">
-              <div className="relative w-[245px] h-[81px]">
-                <Image
-                  width={100}
-                  height={100}
-                  className="w-[252px] top-[28px] left-[-6px] absolute h-[12px]"
-                  alt="Line"
-                  src={lineImage}
-                />
-                <div className="absolute w-[190px] top-0 left-0 [font-family:'Roboto-ExtraBold',_Helvetica] font-extrabold text-black text-[20px] tracking-[0] leading-[normal]">
-                  High-Speed Internet
-                </div>
-                <div className="absolute w-[215px] h-[31px] top-[47px] left-[2px]">
-                  <p className="absolute w-[213px] top-0 left-0 [font-family:'Inter-Regular',_Helvetica] font-normal text-black text-[15px] tracking-[0] leading-[normal]">
-                    Enjoy high-speed internet anywhere you go with Only-Wifi.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="absolute w-[216px] h-[78px] top-[882px] left-[1083px]">
-              <div className="absolute w-[205px] top-0 left-0 [font-family:'Roboto-ExtraBold',_Helvetica] font-extrabold text-black text-[20px] tracking-[0] leading-[normal]">
-                Easy Sign-Up Process
-              </div>
-              <div className="absolute w-[215px] h-[31px] top-[47px] left-[2px]">
-                <p className="absolute w-[213px] top-0 left-0 [font-family:'Inter-Regular',_Helvetica] font-normal text-black text-[15px] tracking-[0] leading-[normal]">
-                  Sign up for Only-Wifi in minutes with our easy sign-up
-                  process.
-                </p>
-              </div>
-            </div>
-            <Image
-              width={100}
-              height={100}
-              className="absolute w-[10px] h-[18px] top-[978px] left-[363px]"
-              alt="Vector"
-              src={dollarImage}
-            />
-
-            <Image
-              width={100}
-              height={100}
-              className="absolute w-[23px] h-[24px] top-[953px] left-[1322px]"
-              alt="Vector"
-              src={signUpImage}
-            />
-          </div>
-          <div className="absolute w-[614px] h-[546px] top-[145px] left-[89px]">
-            <p className="absolute w-[612px] top-0 left-0 [text-shadow:0px_4px_4px_#00000040] [font-family:'Roboto-Black',_Helvetica] font-black text-transparent text-[50px] tracking-[0.25px] leading-[82.7px]">
-              <span className="text-black">
-                BRIDGING THE DIGITAL DIVIDE BY PROVIDING{" "}
-              </span>
-              <span className="text-[#f8df00]">AFFORDABLE</span>
-              <span className="text-black">&nbsp;</span>
-              <span className="text-[#f8df00]">INTERNET</span>
-              <span className="text-black">
-                {" "}
-                ACCESS TO UNDER-SERVED AREAS
-                <br />
-              </span>
-              <span className="text-black">{""}</span>
+    <div className="bg-white flex flex-row justify-center w-full">
+      <div className="bg-white w-[1680px] h-[1024px] relative">
+        <div className="absolute w-[640px] h-[361px] top-[175px] left-[126px]">
+          <div className="absolute w-[540px] h-[33px] top-[221px] left-0">
+            <p className="absolute top-0 left-0 [font-family:'Open_Sans-Regular',Helvetica] font-normal text-black text-[24px] tracking-[0] leading-[normal]">
+              Bringing Affordable Internet to Your Community
             </p>
-            <button className="flex w-[179px] h-[57px] items-center justify-center gap-[10px] px-[24px] py-[12px] absolute top-[489px] left-0 bg-[#f8df00] rounded-[4px] all-[unset] box-border">
-              <div className="relative w-fit mt-[-0.50px] [font-family:'Roboto-Bold',_Helvetica] font-bold text-[color:var(--blue-gray-900)] text-[32px] tracking-[0] leading-[32px] whitespace-nowrap">
-                SIGNUP
+          </div>
+          <p className="absolute w-[638px] top-0 left-0 [text-shadow:0px_4px_4px_#00000040] [font-family:'Roboto-Black',Helvetica] font-black text-transparent text-[64px] tracking-[0.32px] leading-[83.5px]">
+            <span className="text-stone-900">JOIN THE ONLY-WIFI </span>
+            <span className="text-[#f8df00]">REVOLUTION!</span>
+          </p>
+          <div className="absolute w-[441px] h-[49px] top-[312px] left-0">
+            <div className="absolute w-[209px] h-[49px] top-0 left-0">
+              <div className="relative w-[207px] h-[49px] bg-[#f8df00] rounded-[26px] shadow-[0px_1px_2px_1px_#00000040]">
+                <div className="absolute top-[15px] left-[12px] [font-family:'Open_Sans-Bold',Helvetica] font-bold text-black text-[14px] tracking-[0.10px] leading-[20px] whitespace-nowrap">
+                  EXPLORE DATA PACKAGES
+                </div>
               </div>
-            </button>
+            </div>
+            <div className="absolute w-[209px] h-[49px] top-0 left-[234px]">
+              <div className="relative w-[207px] h-[49px] bg-white rounded-[26px] border-[3px] border-solid border-[#1c1917c2] shadow-[0px_1px_2px_1px_#00000040]">
+                <div className="absolute top-[12px] left-[29px] [font-family:'Open_Sans-Bold',Helvetica] font-bold text-black text-[14px] tracking-[0.10px] leading-[20px] whitespace-nowrap">
+                  BECOME A RESELLER
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute w-[1680px] h-[230px] top-[794px] left-0 bg-stone-900">
+          <div className="h-[205px] left-[654px] absolute w-[381px] top-[16px]">
+            <div className="relative h-[205px]">
+              <div className="w-[75px] h-[75px] top-[130px] left-[306px] rounded-[37.5px] absolute bg-white shadow-[inset_0px_4px_4px_#00000040]">
+                <Image
+                  className="!absolute !w-[68px] !h-[68px] !top-[3px] !left-[3px]"
+                  src={language}
+                  width={100}
+                  height={100}
+                  alt=""
+                />
+              </div>
+              <div className="bg-[url('/images/card-benefit.png')] absolute w-[373px] h-[198px] top-0 left-0 bg-[100%_100%] bg-cover">
+                <div className="relative w-[280px] h-[91px] top-[47px] left-[38px]">
+                  <div className="relative w-[292px] h-[91px] left-[-6px]">
+                    <Image
+                      width={100}
+                      height={100}
+                      className="absolute w-[292px] h-[12px] top-[36px] left-0"
+                      alt="Line"
+                      src={line}
+                    />
+                    <div className="absolute w-[252px] h-[91px] top-0 left-[6px]">
+                      <div className="absolute top-0 left-0 [font-family:'Roboto-ExtraBold',Helvetica] font-extrabold text-stone-900 text-[24px] tracking-[0] leading-[normal] whitespace-nowrap">
+                        High-Speed Internet
+                      </div>
+                      <div className="absolute w-[250px] h-[36px] top-[55px] left-[2px]">
+                        <p className="absolute w-[248px] top-0 left-0 [font-family:'Inter-Regular',Helvetica] font-normal text-stone-900 text-[15px] tracking-[0] leading-[normal]">
+                          Enjoy high-speed internet anywhere you go with
+                          Only-Wifi.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="h-[206px] left-[92px] absolute w-[381px] top-[16px]">
+            <div className="relative h-[206px]">
+              <div className="bg-[url('/images/card-benefit.png')] absolute w-[373px] h-[198px] top-0 left-0 bg-[100%_100%] bg-cover">
+                <div className="relative w-[283px] h-[95px] top-[47px] left-[42px]">
+                  <div className="relative w-[292px] h-[95px] left-[-6px]">
+                    <Image
+                      width={100}
+                      height={100}
+                      className="absolute w-[292px] h-[12px] top-[36px] left-0"
+                      alt="Line"
+                      src={line}
+                    />
+                    <div className="absolute w-[285px] h-[95px] top-0 left-[6px]">
+                      <div className="absolute top-0 left-0 [font-family:'Roboto-ExtraBold',Helvetica] font-extrabold text-stone-900 text-[24px] tracking-[0] leading-[normal] whitespace-nowrap">
+                        Affordable Data Packages
+                      </div>
+                      <div className="absolute w-[250px] h-[40px] top-[55px] left-[2px]">
+                        <p className="absolute w-[248px] top-0 left-0 [font-family:'Open_Sans-Regular',Helvetica] font-normal text-stone-900 text-[15px] tracking-[0] leading-[normal]">
+                          Get access to cheap data packages that fit your
+                          budget.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <Image
+                className="!absolute !w-[80px] !h-[80px] !top-[126px] !left-[301px]"
+                src={monetization}
+                width={100}
+                height={100}
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="h-[203px] left-[1216px] absolute w-[381px] top-[16px]">
+            <div className="relative h-[203px]">
+              <div className="bg-[url('/images/card-benefit.png')] absolute w-[373px] h-[198px] top-0 left-0 bg-[100%_100%] bg-cover">
+                <div className="relative w-[280px] h-[91px] top-[47px] left-[46px]">
+                  <div className="relative w-[292px] h-[91px] left-[-6px]">
+                    <Image
+                      width={100}
+                      height={100}
+                      className="absolute w-[292px] h-[12px] top-[36px] left-0"
+                      alt="Line"
+                      src={line}
+                    />
+                    <div className="absolute w-[252px] h-[91px] top-0 left-[8px]">
+                      <div className="absolute top-0 left-0 [font-family:'Roboto-ExtraBold',Helvetica] font-extrabold text-stone-900 text-[24px] tracking-[0] leading-[normal] whitespace-nowrap">
+                        Easy Sign-Up Process
+                      </div>
+                      <div className="absolute w-[250px] h-[36px] top-[55px] left-[2px]">
+                        <p className="absolute w-[248px] top-0 left-0 [font-family:'Inter-Regular',Helvetica] font-normal text-stone-900 text-[15px] tracking-[0] leading-[normal]">
+                          Sign up for Only-Wifi in minutes with our easy sign-up
+                          process.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-[69px] h-[69px] top-[134px] left-[312px] rounded-[34.5px] absolute bg-white shadow-[inset_0px_4px_4px_#00000040]">
+                <Image
+                  className="!absolute !w-[51px] !h-[51px] !top-[8px] !left-[13px]"
+                  src={howToReg}
+                  width={100}
+                  height={100}
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute w-[783px] h-[748px] top-[10px] left-[832px]">
+          <div className="relative w-[797px] h-[762px] top-[-2px] left-[-7px] bg-[url('/images/hero-image.png')] bg-cover bg-[50%_50%]">
+            <Image
+              width={100}
+              height={100}
+              className="absolute w-[174px] h-[168px] top-[573px] left-[30px]"
+              alt="Hero vector"
+              src="/images/hero-vector.svg"
+            />
           </div>
         </div>
       </div>
