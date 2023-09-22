@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="w-full border border-red-500">
+    <div className="w-full">
       <HeroSection />
       <AboutSection />
       <PackagesSection />
