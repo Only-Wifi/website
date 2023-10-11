@@ -28,13 +28,13 @@ const menuItems = [
     // icon: HeartHandshakeIcon,
   },
   {
-    name: "Locations",
-    href: "/#services",
+    name: "Coverage Map",
+    href: "/#coverage",
     // icon: PuzzleIcon,
   },
   {
     name: "Resellers",
-    href: "/#products",
+    href: "/#resellers",
     // icon: RocketIcon,
   },
   {

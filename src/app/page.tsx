@@ -17,7 +17,6 @@ export default function Home() {
       <CoverageSection />
       <ResellerSection />
       <BetaInfoSection />
-      <Footer />
     </div>
   );
 }
