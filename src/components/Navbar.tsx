@@ -23,7 +23,8 @@ const Navbar = () => {
             buttonVariants({ variant: "default", size: "sm" }),
             "bg-[#fed208] text-black  hover:shadow-inner hover:shadow-white/80 hover:scale-105  hover:bg-yellow-400 text-xs"
           )}
-          href="https://app.only-wifi.com/sign-in"
+          href="/#contact"
+          // href="https://app.only-wifi.com/sign-in"
         >
           Sign In
         </Link>
